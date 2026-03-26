@@ -37,9 +37,9 @@ const isScrolled = ref(false)
 const isMenuOpen = ref(false)
 
 const navItems = [
+  { label: '教育背景', href: '#education' },
   { label: '简述', href: '#about' },
-  { label: '教育', href: '#education' },
-  { label: '项目', href: '#projects' },
+  { label: '科研竞赛', href: '#projects' },
   { label: '荣誉技能', href: '#honors-skill' },
   { label: '实践', href: '#experience' },
   { label: '联系', href: '#contact' }

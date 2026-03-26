@@ -227,11 +227,11 @@ const showTooltip = (text, event) => {
 
 // 导航项配置
 const navItems = [
-  { id: 'about', label: '关于我', href: '#about' },
   { id: 'education', label: '教育背景', href: '#education' },
+  { id: 'about', label: '简述', href: '#about' },
   { id: 'projects', label: '科研竞赛', href: '#projects' },
   { id: 'honors-skill', label: '荣誉技能', href: '#honors-skill' },
-  { id: 'experience', label: '实习经历', href: '#experience' }
+  { id: 'experience', label: '实践', href: '#experience' }
 ]
 
 // 当前激活的导航项
