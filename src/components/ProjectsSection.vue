@@ -24,14 +24,14 @@
               <h4 class="section-label">负责工作</h4>
               <ul class="work-list">
                 <li><p>系统<strong>全栈</strong>开发：构建端到端<strong> Tensor 流式 Pipeline</strong>，<strong>多任务级联耦合</strong>三大模型</p></li>
-                <li><p>完成<strong>内存零拷贝、异步视频流处理</strong>等工程优化</p></li>
+                <li><p>完成<strong>内存零拷贝、异步视频流处理、TensorRT加速推理</strong>等工程优化</p></li>
                 <li><p>后端基于 Spring Boot 实现核心功能，前端用 Vue3 搭建移动端优先界面，支撑<strong>实时视频分析</strong></p></li>
               </ul>
             </div>
             <div class="project-section"> 
               <h4 class="section-label">项目收获</h4>
               <p class="section-text">
-                正在准备专利申请及结项事宜
+                实现高效实时车牌识别系统，相应图像退化场景下识别准确率提升至96%以上，流式处理节省约10.8%耗时；TensorRT加速推理经100次测试，NAFNet性能提升25.5%，DehazeNet性能提升182.0%。并在准备专利申请及结项事宜
               </p>
             </div>
           </div>
@@ -42,6 +42,7 @@
             <span class="tech-tag">计算机视觉</span>
             <span class="tech-tag">图像复原</span>
             <span class="tech-tag">全栈</span>
+            <span class="tech-tag">TensorRT</span>
           </div>
         </article>
 
@@ -72,8 +73,9 @@
             <div class="project-section">
               <h4 class="section-label">项目收获</h4>
               <p class="section-text">
+                本模型相比于基于LSTM的强基线模型，MAE降低7.8%、PESD下降8.8%、置信带收窄8.5%，精度稳定性全面领先；<br>
                 论文《Spatiotemporal dual attention network for field scale prediction of three dimensional landslide deformation from InSAR time series》
-                已投稿中科院一区 Engineering Geology（第三作者）
+                中科院一区 Engineering Geology [第三作者] 在投
               </p>
             </div>
           </div>
@@ -124,6 +126,50 @@
             <span class="tech-tag">Ollama</span>
             <span class="tech-tag">知识图谱</span>
             <span class="tech-tag">Linux</span>
+          </div>
+        </article>
+
+        <article class="project-card featured">
+          <div class="project-header">
+            <div class="project-badge">RAG智能问答系统</div>
+            <span class="project-period">2026.02 - 2026.04</span>
+          </div>
+          <h3 class="project-title">船舶维修领域智能问答系统（SFQA）</h3>
+          <p class="project-subtitle">基于RAG技术的专业智能问答服务</p>
+          <div class="project-content">
+            <div class="project-section">
+              <h4 class="section-label">主要内容</h4>
+              <p class="section-text">
+                基于RAG技术构建专业智能问答服务，采用混合检索策略解决通用大模型专业知识不足、幻觉问题，
+                支持船舶维修多领域故障诊断，支持本地私有化部署，实现工业级AI应用落地。
+              </p>
+            </div>
+            <div class="project-section">
+              <h4 class="section-label">负责工作</h4>
+              <ul class="work-list">
+                <li><p>设计实现<strong>RAG核心检索系统</strong>，融合<strong>向量检索</strong>（ChromaDB）与<strong>BM25关键词检索</strong>，通过<strong>RRF算法</strong>优化召回率，结合元数据增强提升检索精度</p></li>
+                <li><p>搭建<strong>多格式文档处理流水线</strong>，支持多类型文件解析、智能文本切分及元数据管理，构建专业自定义知识库，支持高度解耦</p></li>
+                <li><p>设计<strong>LLM服务架构</strong>，实现多提供商无缝切换、流式响应及问题分类，优化RAG Prompt模板</p></li>
+                <li><p>实现<strong>文档与知识图谱融合检索</strong>，开发<strong>RAG自动评测框架</strong></p></li>
+              </ul>
+            </div>
+            <div class="project-section">
+              <h4 class="section-label">项目收获</h4>
+              <p class="section-text">
+                精通RAG全链路工程实现，掌握向量数据库、混合检索及LLM本地化部署，积累AI应用工程化及工业领域业务落地经验。
+              </p>
+            </div>
+          </div>
+          <div class="project-tech">
+            <span class="tech-tag">RAG</span>
+            <span class="tech-tag">Flask</span>
+            <span class="tech-tag">Vue 3</span>
+            <span class="tech-tag">ChromaDB</span>
+            <span class="tech-tag">Ollama</span>
+            <span class="tech-tag">llama.cpp</span>
+            <span class="tech-tag">MySQL</span>
+            <span class="tech-tag">混合检索</span>
+            <span class="tech-tag">私有化部署</span>
           </div>
         </article>
 
@@ -252,7 +298,7 @@
 <script setup>
 import { ref } from 'vue'
 
-const showMoreProjects = ref(false)
+const showMoreProjects = ref(true)
 </script>
 
 <style scoped>

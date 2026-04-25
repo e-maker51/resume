@@ -19,12 +19,12 @@
                 </a>
 
                 <strong><br>① 全天候车牌识别系统（国家级大创 · 第一负责人）</strong>：构建<strong>端到端 Tensor 流式 Pipeline</strong>，采用<strong>多任务级联耦合</strong>架构融合三大图像复原模型，
-                实现<strong>雨雾模糊场景下的高精度车牌识别</strong>。完成<strong>内存零拷贝</strong>、<strong>异步视频流处理</strong>等工程优化，基于 <strong>Spring Boot + Vue3</strong> 构建前后端分离架构，支撑<strong>实时视频分析</strong>。
-                项目已进入<strong>专利申请阶段</strong>。
+                实现<strong>雨雾模糊场景下的高精度车牌识别</strong>。完成<strong>内存零拷贝</strong>、<strong>异步视频流处理</strong>、<strong>TensorRT加速推理</strong>等工程优化，基于 <strong>Spring Boot + Vue3</strong> 构建前后端分离架构，支撑<strong>实时视频分析</strong>。
+                相应图像退化场景下识别准确率提升至96%以上，流式处理节省约10.8%耗时。
 
                 <strong><br>② 果卜坡地质形变预测（算法核心成员）</strong>：设计<strong>时空双注意力机制</strong>融合 <strong>ConvLSTM-Encoder-Decoder</strong> 框架，
                 创新<strong>自学习空间因果门</strong>与<strong>网格化区域相关性卷积</strong>算法，实现<strong>12 维 InSAR 数据</strong>的高效处理与<strong>高精度三维滑坡形变预测</strong>。
-                以<strong>第三作者</strong>身份撰写论文，已投稿至<strong>中科院一区</strong>《Engineering Geology》。
+                相比于基于LSTM的强基线模型，MAE降低7.8%、PESD下降8.8%。以<strong>第三作者</strong>身份撰写论文，<strong>中科院一区</strong>《Engineering Geology》在投。
 
                 <strong><br>③ 国家管网油气知识图谱平台（校企合作）</strong>：采用 <strong>SpringCloud + Flask + LangChain</strong> 构建<strong>异步微服务架构</strong>，
                 完成 <strong>Ollama 大模型本地部署</strong>与<strong>Token 调优</strong>，实现<strong>PDF 智能提取</strong>、<strong>大模型推理解析</strong>及<strong>万方数据平台对接</strong>，
