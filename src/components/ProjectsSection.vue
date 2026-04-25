@@ -131,7 +131,7 @@
 
         <article class="project-card featured">
           <div class="project-header">
-            <div class="project-badge">RAG智能问答系统</div>
+            <div class="project-badge">基于知识图谱的RAG智能问答系统</div>
             <span class="project-period">2026.02 - 2026.04</span>
           </div>
           <h3 class="project-title">船舶维修领域智能问答系统（SFQA）</h3>
@@ -140,27 +140,28 @@
             <div class="project-section">
               <h4 class="section-label">主要内容</h4>
               <p class="section-text">
-                基于RAG技术构建专业智能问答服务，采用混合检索策略解决通用大模型专业知识不足、幻觉问题，
-                支持船舶维修多领域故障诊断，支持本地私有化部署，实现工业级AI应用落地。
+                基于知识图谱的RAG智能问答系统，采用Neo4j与RAG技术构建专业智能问答服务，采用混合检索、问题分类策略，解决通用大模型专业知识不足、幻觉问题，
+                支持船舶维修多领域故障诊断，支持本地私有化部署，实现AI应用落地。
               </p>
             </div>
             <div class="project-section">
               <h4 class="section-label">负责工作</h4>
               <ul class="work-list">
-                <li><p>设计实现<strong>RAG核心检索系统</strong>，融合<strong>向量检索</strong>（ChromaDB）与<strong>BM25关键词检索</strong>，通过<strong>RRF算法</strong>优化召回率，结合元数据增强提升检索精度</p></li>
+                <li><p>设计实现<strong>RAG核心检索系统</strong>，融合<strong>向量检索</strong>（ChromaDB）与<strong>BM25关键词检索</strong>，结合元数据增强提升检索精度</p></li>
                 <li><p>搭建<strong>多格式文档处理流水线</strong>，支持多类型文件解析、智能文本切分及元数据管理，构建专业自定义知识库，支持高度解耦</p></li>
                 <li><p>设计<strong>LLM服务架构</strong>，实现多提供商无缝切换、流式响应及问题分类，优化RAG Prompt模板</p></li>
-                <li><p>实现<strong>文档与知识图谱融合检索</strong>，开发<strong>RAG自动评测框架</strong></p></li>
               </ul>
             </div>
             <div class="project-section">
               <h4 class="section-label">项目收获</h4>
               <p class="section-text">
-                精通RAG全链路工程实现，掌握向量数据库、混合检索及LLM本地化部署，积累AI应用工程化及工业领域业务落地经验。
+                精通RAG全链路工程实现，掌握向量数据库、混合检索及LLM本地化部署，积累AI应用工程化业务落地经验。
               </p>
             </div>
           </div>
           <div class="project-tech">
+            <span class="tech-tag">知识图谱</span>
+            <span class="tech-tag">Neo4j</span>
             <span class="tech-tag">RAG</span>
             <span class="tech-tag">Flask</span>
             <span class="tech-tag">Vue 3</span>
@@ -169,7 +170,6 @@
             <span class="tech-tag">llama.cpp</span>
             <span class="tech-tag">MySQL</span>
             <span class="tech-tag">混合检索</span>
-            <span class="tech-tag">私有化部署</span>
           </div>
         </article>
 
@@ -238,7 +238,7 @@
                   <p class="section-text">
                     针对 ECG 信号去噪易盲目性的问题，采用"先量化后去噪"思路，
                     学习两个开源项目的论文及模型技术，利用扩散模型实现 ECG 噪声自动化量化，
-                    再进行针对性去噪，避免盲目去噪，实现噪声量化与去噪的协同落地。
+                    再进行针对性去噪，避免盲目去噪，实现噪声量化与去噪的协同实现。
                   </p>
                 </div>
                 <div class="project-section">
@@ -246,14 +246,14 @@
                   <ul class="work-list">
                     <li><p>学习开源项目论文原理与模型结构，<strong>复现噪声量化模型</strong>核心逻辑，掌握 <strong>Superlet 变换</strong>、<strong>潜在扩散模型</strong>应用</p></li>
                     <li><p>学习去噪模型实现方法，设计<strong>先量化、后去噪</strong>协同流程，验证流程合理性</p></li>
-                    <li><p>整理学习笔记与模型复现代码，确保每一步操作可追溯、可复现</p></li>
+                    <li><p>整理学习笔记与相应模型的复现代码</p></li>
                   </ul>
                 </div>
                 <div class="project-section">
                   <h4 class="section-label">项目收获</h4>
                   <p class="section-text">
-                    深入学习扩散模型、score-based 去噪模型在 ECG 信号处理中的应用，熟练掌握相关论文核心原理与模型实现逻辑。
-                    提升 PyTorch 框架使用、时频分析及模型复现能力，培养"先量化后去噪"的科学思维，为医学信号处理及 AI 相关学习奠定基础。
+                    深入学习扩散模型、score-based 去噪模型在 ECG 信号处理中的应用，掌握相关论文核心原理与模型实现逻辑。
+                    提升 PyTorch 框架使用、时频分析及模型复现能力，培养"先量化后去噪"的科学思维，为医学信号处理及AI相关学习奠定基础。
                   </p>
                 </div>
               </div>

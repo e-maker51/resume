@@ -29,6 +29,8 @@
                 <strong><br>③ 国家管网油气知识图谱平台（校企合作）</strong>：采用 <strong>SpringCloud + Flask + LangChain</strong> 构建<strong>异步微服务架构</strong>，
                 完成 <strong>Ollama 大模型本地部署</strong>与<strong>Token 调优</strong>，实现<strong>PDF 智能提取</strong>、<strong>大模型推理解析</strong>及<strong>万方数据平台对接</strong>，
                 探索大模型在<strong>知识图谱构建</strong>与<strong>智能问答</strong>场景的工业级应用。
+
+                <strong><br>④ ……（更多见项目详情）</strong>
             </li>
             <li><strong>学习与科研规划</strong>：第一，系统夯实<strong>大模型</strong>、<strong>时空深度学习</strong>、<strong>计算机视觉</strong>等领域的理论基础，紧跟学术前沿，提升学术研究深度；
                 第二，积极参与导师课题组科研项目，将理论研究与各类实际场景深度结合，持续优化算法与技术方案，力争产出<strong>高质量学术论文</strong>与<strong>实用成果</strong>；
