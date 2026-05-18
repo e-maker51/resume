@@ -26,6 +26,7 @@
                 <li><p>系统<strong>全栈</strong>开发：构建端到端<strong> Tensor 流式 Pipeline</strong>，<strong>多任务级联耦合</strong>三大模型</p></li>
                 <li><p>完成<strong>内存零拷贝、异步视频流处理、TensorRT加速推理</strong>等工程优化</p></li>
                 <li><p>后端基于 Spring Boot 实现核心功能，前端用 Vue3 搭建移动端优先界面，支撑<strong>实时视频分析</strong></p></li>
+                <li><p>构建基于 <strong>RAG</strong> 的 <strong>AI 运维助手</strong>，实现智能增强</p></li>
               </ul>
             </div>
             <div class="project-section"> 
