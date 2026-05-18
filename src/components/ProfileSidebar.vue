@@ -3,7 +3,7 @@
     <div class="profile-card">
       <!-- 头像区域 -->
       <div class="profile-avatar">
-        <img src="@/assets/p.png" alt="张程" class="profile-photo" />
+        <img src="@/assets/证件照.png" alt="张程" class="profile-photo" />
       </div>
 
       <!-- 基础信息 - 四格排列 -->

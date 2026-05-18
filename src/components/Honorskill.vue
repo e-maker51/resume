@@ -84,6 +84,17 @@
               </div>
               <div class="hover-tooltip">点击查看详情</div>
             </li>
+            <li class="honor-item" @click="openModal('全国大学生市场调查与分析大赛省一等奖', 市调大赛证明)">
+              <span class="honor-badge provincial">省级</span>
+              <span class="honor-name">全国大学生市场调查与分析大赛省一等奖</span>
+              <div class="honor-actions">
+                <button class="detail-btn" @click.stop="openModal('全国大学生市场调查与分析大赛省一等奖', 市调大赛证明)">
+                  <span class="btn-text">详情</span>
+                </button>
+                <span class="honor-year">2025</span>
+              </div>
+              <div class="hover-tooltip">点击查看详情</div>
+            </li>
           </ul>
         </div>
         <div class="honor-category">
@@ -205,6 +216,7 @@ import 服务外包大赛 from '../assets/服务外包大赛.jpg'
 import 计算机设计大赛 from '../assets/计算机设计大赛.jpg'
 import 互联网铜奖 from '../assets/互联网+铜奖.png'
 import 校级项目立项 from '../assets/校级项目立项.png'
+import 市调大赛证明 from '../assets/市调大赛证明.png'
 
 const modalVisible = ref(false)
 const modalTitle = ref('')
