@@ -5,7 +5,7 @@
       <h2 class="section-title">简述</h2>
       <div class="bio-content">
         <ul class="describe-list">
-            <li><strong>个人简述</strong>：专业排名<strong>5/158</strong>，位居年级前<strong>3.1%</strong>，<strong>GPA 4.15/5.0</strong>，概率统计、高等数学、数据结构、计算机系统基础等核心课程均取得<strong>95分以上</strong>优异成绩，
+            <li><strong>个人简述</strong>：专业排名<strong>7/158</strong>，位居年级前<strong>5%</strong>，<strong>GPA 4.16/5.0</strong>，概率统计、高等数学、数据结构、计算机系统基础等核心课程均取得<strong>95分以上</strong>优异成绩，
                 具备扎实的数学功底与计算机理论基础。熟练掌握C、Java、Python、MySQL以及<strong>Agent开发</strong>、<strong>LangChain框架</strong>、<strong>Ollama大模型部署</strong>等AI技术栈，
                 同时掌握<strong>Docker</strong>、<strong>Linux</strong>、<strong>Git</strong>等工程化工具，编程能力与系统开发能力兼备。在校期间，累计获得<strong>5次优秀学生奖学金</strong>、<strong>2次国家励志奖学金</strong>，斩获<strong>国家级、省部级</strong>学科竞赛与科研荣誉十余项，
                 学业成绩、综合素养与科研潜力均得到充分检验。
