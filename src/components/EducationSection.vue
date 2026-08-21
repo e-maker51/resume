@@ -22,14 +22,14 @@
                 </button>
                 <div class="gpa-badge">
                   <span class="gpa-label">GPA</span>
-                  <span class="gpa-value">4.15/5.0</span>
+                  <span class="gpa-value">4.16/5.0</span>
                 </div>
                 <div class="hover-tooltip">点击查看详情</div>
               </div>
             </div>
             <div class="rank-info">
               <span class="rank-label">专业排名</span>
-              <span class="rank-value">5/158 (前 3.1%)</span>
+              <span class="rank-value">7/158 (前 5%)</span>
             </div>
             <div class="courses-section">
               <span class="courses-label">主修课程</span>
@@ -59,7 +59,7 @@
           <span class="stat-label">竞赛奖项</span>
         </div>
         <div class="stat-item">
-          <span class="stat-number">3.1%</span>
+          <span class="stat-number">5%</span>
           <span class="stat-label">专业排名</span>
         </div>
         <div class="stat-item">

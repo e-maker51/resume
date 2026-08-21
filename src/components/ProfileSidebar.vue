@@ -53,17 +53,17 @@
       <!-- 快速统计 -->
       <div class="profile-stats">
         <div class="stat-box clickable" @click="openModal('绩点和排名证明', 绩点和排名)">
-          <span class="stat-value">4.15</span>
+          <span class="stat-value">4.16</span>
           <span class="stat-label">GPA</span>
           <div class="hover-tooltip">点击查看详情</div>
         </div>
         <div class="stat-box clickable" @click="openModal('绩点和排名证明', 绩点和排名)">
-          <span class="stat-value">5/158</span>
+          <span class="stat-value">7/158</span>
           <span class="stat-label">排名</span>
           <div class="hover-tooltip">点击查看详情</div>
         </div>
         <div class="stat-box clickable" @click="openModal('绩点和排名证明', 绩点和排名)">
-          <span class="stat-value">3.1%</span>
+          <span class="stat-value">5%</span>
           <span class="stat-label">前</span>
           <div class="hover-tooltip">点击查看详情</div>
         </div>
