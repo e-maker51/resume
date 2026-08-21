@@ -63,7 +63,7 @@
           <span class="stat-label">专业排名</span>
         </div>
         <div class="stat-item">
-          <span class="stat-number">4.15</span>
+          <span class="stat-number">4.16</span>
           <span class="stat-label">GPA/5.0</span>
         </div>
       </div>
